@@ -1,0 +1,71 @@
+.title {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.FishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fish {
+    border: solid blue 5px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid green 5px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.place {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid hotpink 5px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.TankTips {
+    display: flex;
+    float: right;
+    width: 30%;
+    justify-content: space-evenly;
+    border: solid purple 5px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.tips {
+    justify-content: space-evenly;
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
